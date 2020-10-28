@@ -1,0 +1,6 @@
+copy all new files to folder
+git init
+git add .
+git commit -m "branch name <DDMMYYYYHHMM>"
+git branch -m "branch name <DDMMYYYYHHMM>"
+git push -u origin "branch name <DDMMYYYYHHMM>"
