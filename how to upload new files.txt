@@ -1,6 +1,9 @@
-copy all new files to folder
+1) copy all new files to folder
+
+2) CMD Lines
 git init
 git add .
 git commit -m "branch name <DDMMYYYYHHMM>"
+git update-index --assume-unchanged dir-im-removing/
 git branch -m "branch name <DDMMYYYYHHMM>"
 git push -u origin "branch name <DDMMYYYYHHMM>"
