@@ -2,8 +2,10 @@
 
 2) CMD Lines
 git init
-git add .
-git commit -m "branch name <DDMMYYYYHHMM>"
 git update-index --assume-unchanged dir-im-removing/
+git add .
+git update-index --assume-unchanged dir-im-removing/
+git commit -m "branch name <DDMMYYYYHHMM>"
+git update-index --assume-unchanged dir-im-removing/ (it wont delete files from github even if you deleted locally)
 git branch -m "branch name <DDMMYYYYHHMM>"
 git push -u origin "branch name <DDMMYYYYHHMM>"
